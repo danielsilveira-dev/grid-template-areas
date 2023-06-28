@@ -1,0 +1,26 @@
+.content {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "A B"
+    "C B"
+    "C D"
+    "E E";
+}
+
+.content img:nth-child(1) {
+    grid-area: A;
+}
+.content img:nth-child(2) {
+    grid-area: B;
+}
+.content img:nth-child(3) {
+    grid-area: C;
+}
+.content img:nth-child(4) {
+    grid-area: D;
+}
+.content img:nth-child(5) {
+    grid-area: E;
+}
